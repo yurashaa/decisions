@@ -40,7 +40,7 @@ print("Best value is", EVM_MAX)
 EVM_C = (EVM_A1 + EVM_B1) * C['P3']
 print("So, EVM(C) =","(",EVM_A1, '+', EVM_B1,")", '*', C['P3'], '=', EVM_C)
 
-letters = ['A', 'B', 'C']
+letters = ['A', 'Б', 'B']
 bestSolution = max([EVM_A, EVM_B, EVM_C])
 
-print("\nThe best solution of { A:", EVM_A, ',', "B:", EVM_B, ',', "C:", EVM_C, "} is", letters[[EVM_A, EVM_B, EVM_C].index(bestSolution)], '{', bestSolution, '}')
+print("\nНайкращий варіант: ", letters[[EVM_A, EVM_B, EVM_C].index(bestSolution)], '{', bestSolution, '}')
